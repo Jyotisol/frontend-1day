@@ -1,0 +1,74 @@
+*{
+   padding: 0px;
+    Font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    margin:0px;
+}
+body{
+    background-color: hsl(47, 88%, 63%);
+     height:100%;
+     padding: 3rem 1rem
+}
+
+.container { 
+    max-width: 360px;
+    height: 500px;
+     margin: auto;  
+     padding: 20px;    
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid black;
+    /* width: 400px;
+    height: 600px; */
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+     border-radius: 10px;
+     box-shadow: 10px 10px;
+    
+}
+
+.learn{
+    background-color:  hsl(47, 88%, 63%);
+    color:  balck;
+    height: 20px;
+    width: 70px;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.pra{
+    color: hsl(0, 0%, 50%);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.container img{  
+    border-radius: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px; 
+    list-style-type: none;
+    align-items: center; 
+}
+.avart-img{
+    margin: 20px;
+}
+
+.container h1{
+    font-weight: 800;
+    font-size: 20px;
+}
+.container h1:hover{
+
+   color:hsl(47, 88%, 63%);
+   cursor: pointer;
+}
+.attribution{
+    font-size: 11px; text-align: center;
+    margin-top: 2rem;
+}
+
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
